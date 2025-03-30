@@ -1,5 +1,5 @@
 const express = require('express')         
-require('../server/Conex/conect')           
+require('../server/connection/connect')           
 const user = require('./models/model')    
 const app = express()
 const coockie = require('cookie-parser')
