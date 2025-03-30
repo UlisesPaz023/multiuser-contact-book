@@ -1,23 +1,21 @@
-// Link : Nos permite redirigir a otro componente
-// UseNavigate : Nos permite la navegación entre las paginas
-import { Link , useNavigate } from 'react-router-dom'
+import { Link , useNavigate } from 'react-router-dom';
 import useAuth from '../auth/auth';
 
 const NavBar = () => {
 
-    const {isauth, nombre, logout} = useAuth()
+    const {isauth, name, logout} = useAuth();
     const navigate = useNavigate();
 
     const handleLogout = async () => {
         await logout();
         window.location.reload();
         navigate('/');
-    }
+    };
     
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div className="p-0 container">
-            <Link className="navbar-brand" to="/">Navbar</Link>
+            <Link className="navbar-brand" to="/">CONNEXIO</Link>
             <button
                 className="navbar-toggler"
                 type="button"
@@ -48,7 +46,7 @@ const NavBar = () => {
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link fw-bold" to="/usuario">
-                        ¡Hola, {nombre.toUpperCase()}!
+                        ¡Hola, {name.toUpperCase()}!
                         </Link>
                     </li>
                     <li className="nav-item">
@@ -75,7 +73,7 @@ const NavBar = () => {
             </div>
             </div>
         </nav>
-    )
-}
+    );
+};
 
-export default NavBar
+export default NavBar;

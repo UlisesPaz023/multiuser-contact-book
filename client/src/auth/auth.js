@@ -1,104 +1,95 @@
-import axios from 'axios' // Librería para hacer solicitudes HTTP.
-import { useState, useEffect } from 'react' // Hooks de React para manejar estados y efectos secundarios.
-import { useNavigate } from 'react-router-dom' // Hook para la navegación entre rutas.
+import axios from 'axios';
+import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const useAuth = () => {
-    // Estados para guardar la información del usuario y el estado de autenticación.
-    const [isauth, setIsauth] = useState(false) 
-    const [nombre, setNombre] = useState("") 
-    const [empresa, setEmpresa] = useState("") 
-    const [domicilio, setDomicilio] = useState("") 
-    const [telefono, setTelefono] = useState("") 
-    const [password, setPassword] = useState("") 
-    const [correo, setCorreo] = useState("") 
-    const [userId, setUserid] = useState("") 
-    const [isAdmin, setIsadmin] = useState(false) 
-    const navigate = useNavigate() 
-    const API_URL = 'http://localhost:5500/auth/'
+    const [isauth, setIsauth] = useState(false);
+    const [name, setName] = useState("");
+    const [company, setCompany] = useState("");
+    const [address, setAddress] = useState("");
+    const [phone, setPhone] = useState("");
+    const [password, setPassword] = useState("");
+    const [email, setEmail] = useState("");
+    const [userId, setUserid] = useState("");
+    const [isAdmin, setIsadmin] = useState(false);
+    const navigate = useNavigate();
+    const API_URL = 'http://localhost:5500/auth/';
 
     const resetUserData = () => {
-            setIsauth(false)
-            setNombre("")
-            setEmpresa("")
-            setDomicilio("")
-            setTelefono("")
-            setPassword("")
-            setCorreo("")
-            setUserid("")
-            setIsadmin("")
+            setIsauth(false);
+            setName("");
+            setCompany("");
+            setAddress("");
+            setPhone("");
+            setPassword("");
+            setEmail("");
+            setUserid("");
+            setIsadmin("");
     };
 
     useEffect(() => {
-        // Función para verificar si el usuario está autenticado.
         const authStatus = async () => {
             try {
-                // Realizamos una solicitud al servidor para verificar la autenticación.
-                const resp = await axios.get(`${API_URL}verify`, { withCredentials: true })
+                const resp = await axios.get(`${API_URL}verify`, { withCredentials: true });
 
                 if (resp.status === 200) { 
-                    // Si el servidor responde con éxito (status 200), actualizamos los estados con los datos del usuario.
-                    setIsauth(true)
-                    setNombre(resp.data.nombre) // Nombre del usuario desde la respuesta del servidor.
-                    setEmpresa(resp.data.empresa) // Empresa del usuario.
-                    setDomicilio(resp.data.domicilio) // Domicilio del usuario.
-                    setTelefono(resp.data.telefono) // Teléfono del usuario.
-                    setPassword(resp.data.password) // Contraseña (poco recomendable guardar en el frontend).
-                    setCorreo(resp.data.correo) // Correo electrónico.
-                    setUserid(resp.data.id) // Identificador del usuario.
-                    setIsadmin(resp.data.admin) // Rol de administrador.
-                    console.log(resp.data) // Imprimimos los datos del usuario en consola para depuración.
+                    setIsauth(true);
+                    setName(resp.data.name);
+                    setCompany(resp.data.company);
+                    setAddress(resp.data.address);
+                    setPhone(resp.data.phone);
+                    setPassword(resp.data.password);
+                    setEmail(resp.data.email);
+                    setUserid(resp.data.id);
+                    setIsadmin(resp.data.admin);
+                    console.log(resp.data);
                 } else {
-                    // Si la respuesta no es exitosa, limpiamos los estados y marcamos al usuario como no autenticado.
-                    resetUserData()
+                    resetUserData();
                 }
             } catch (error) {
-                // Si ocurre un error (por ejemplo, el servidor no responde), limpiamos los estados y marcamos al usuario como no autenticado.
-                console.error(error) 
-                resetUserData()
+                console.error(error);
+                resetUserData();
             }
-        }
+        };
 
-        authStatus() // Llamamos a la función para verificar el estado de autenticación al montar el componente.
+        authStatus();
 
-    }, [navigate]) 
+    }, [navigate]);
 
     const logout = async () => {
           try {
-             const resp = await axios.get(`${API_URL}logout`, {withCredentials: true} )
+             const resp = await axios.get(`${API_URL}logout`, {withCredentials: true} );
              if (resp.status === 200) {
-                resetUserData()
-                return true
-             
+                resetUserData();
+                return true;
             } else {
-                
-                return false
+                return false;
              }
           } catch (error) {
             console.log(error);
-            resetUserData()
-            return false
+            resetUserData();
+            return false;
           }
-    }
+    };
 
-    // Devolvemos los datos importantes para que los componentes que usen este hook puedan acceder a ellos.
     return {
         isauth,
-        nombre, 
-        empresa, 
-        domicilio, 
-        correo, 
+        name, 
+        company, 
+        address, 
+        email, 
         password,
-        telefono,
-        setCorreo,
-        setNombre,
-        setDomicilio,
+        phone,
+        setEmail,
+        setName,
+        setAddress,
         setPassword,
-        setEmpresa,
-        setTelefono,
+        setCompany,
+        setPhone,
         userId,
         isAdmin,
         logout
-    }
-}
+    };
+};
 
-export default useAuth // Exportamos el hook para usarlo en otros componentes.
+export default useAuth;
