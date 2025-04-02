@@ -89,19 +89,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-13" value="id_prestacion&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;codigo&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="410" width="170" height="170" as="geometry" />
+          <mxGeometry x="-45" y="410" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-14" value="PRESTACIONES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-70" y="410" width="170" height="30" as="geometry" />
+          <mxGeometry x="-45" y="410" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nVbOeIYVw6N5CsfIQIgf-18" target="nVbOeIYVw6N5CsfIQIgf-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-18" value="id_material&lt;div&gt;tipo&lt;/div&gt;&lt;div&gt;descripcion&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="220" y="410" width="170" height="170" as="geometry" />
+          <mxGeometry x="220" y="410" width="120" height="120" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-19" value="MATERIALES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="410" width="170" height="30" as="geometry" />
+          <mxGeometry x="220" y="410" width="120" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
