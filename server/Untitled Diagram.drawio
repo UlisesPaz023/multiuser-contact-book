@@ -73,7 +73,7 @@
         <mxCell id="uYpV2VOFGErfWM8a4zOd-4" value="INFORMES_VALIDADOS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="-210" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="nVbOeIYVw6N5CsfIQIgf-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_movimiento (pk)&lt;/div&gt;&lt;div&gt;id_orden (fk)&lt;/div&gt;&lt;div&gt;tipo (ingreso, egreso)&lt;/div&gt;&lt;div&gt;concepto&lt;/div&gt;&lt;div&gt;descripcion&lt;/div&gt;&lt;div&gt;fecha_movimiento&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
+        <mxCell id="nVbOeIYVw6N5CsfIQIgf-3" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_movimiento (pk)&lt;/div&gt;&lt;div&gt;id_orden (fk)&lt;/div&gt;&lt;div&gt;id_secretario (fk)&lt;/div&gt;&lt;div&gt;tipo (ingreso, egreso)&lt;/div&gt;&lt;div&gt;concepto&lt;/div&gt;&lt;div&gt;descripcion&lt;/div&gt;&lt;div&gt;fecha_movimiento&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="300" y="190" width="140" height="140" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-4" value="CAJA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
