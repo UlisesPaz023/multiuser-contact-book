@@ -4,19 +4,19 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jzyrCezaXYslwBgBZA3t-1" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_patologia (pk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_paciente (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_medico (fk) (solicitante)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_orden (fk) (nro servicio)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_ingreso&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_entrega&lt;/span&gt;&lt;/div&gt;&lt;div&gt;material&lt;/div&gt;&lt;div&gt;obra_social&lt;/div&gt;&lt;div&gt;prioridad&lt;/div&gt;&lt;div&gt;informe&lt;/div&gt;&lt;div&gt;informe_validado&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
+        <mxCell id="jzyrCezaXYslwBgBZA3t-1" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_patologia (pk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_paciente (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_medico (fk) (solicitante)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_orden (fk) (nro servicio)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_informe (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_informe_v(fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_ingreso&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_entrega&lt;/span&gt;&lt;/div&gt;&lt;div&gt;material&lt;/div&gt;&lt;div&gt;obra_social&lt;/div&gt;&lt;div&gt;prioridad&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="300" width="190" height="190" as="geometry" />
         </mxCell>
         <mxCell id="jzyrCezaXYslwBgBZA3t-4" value="PATOLOGIAS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="300" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jzyrCezaXYslwBgBZA3t-5" value="&lt;div&gt;id_doctor&lt;/div&gt;nro_matrícula&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;apellido&lt;/div&gt;&lt;div&gt;correo&lt;/div&gt;&lt;div&gt;documento&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
+        <mxCell id="jzyrCezaXYslwBgBZA3t-5" value="&lt;div&gt;id_medico&lt;/div&gt;nro_matrícula&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;apellido&lt;/div&gt;&lt;div&gt;correo&lt;/div&gt;&lt;div&gt;documento&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="190" y="-210" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="uYpV2VOFGErfWM8a4zOd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="jzyrCezaXYslwBgBZA3t-5" target="uYpV2VOFGErfWM8a4zOd-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jzyrCezaXYslwBgBZA3t-6" value="DOCTORES" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="jzyrCezaXYslwBgBZA3t-6" value="MÉDICOS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="190" y="-210" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzyrCezaXYslwBgBZA3t-7" target="nVbOeIYVw6N5CsfIQIgf-3">
@@ -83,7 +83,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="nVbOeIYVw6N5CsfIQIgf-8" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_orden (pk)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;id_prestacion (fk)&lt;/div&gt;&lt;div&gt;id_material (fk)&lt;/div&gt;&lt;div&gt;monto&lt;/div&gt;&lt;div&gt;cobertura&lt;/div&gt;&lt;div&gt;nro_cupon&lt;/div&gt;&lt;div&gt;fecha_cupon&lt;/div&gt;&lt;div&gt;facturante&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
+        <mxCell id="nVbOeIYVw6N5CsfIQIgf-8" value="&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;id_orden (pk)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;id_medico(fk)&lt;/div&gt;&lt;div&gt;id_prestacion (fk)&lt;/div&gt;&lt;div&gt;id_material (fk)&lt;/div&gt;&lt;div&gt;monto&lt;/div&gt;&lt;div&gt;cobertura&lt;/div&gt;&lt;div&gt;nro_cupon&lt;/div&gt;&lt;div&gt;fecha_cupon&lt;/div&gt;&lt;div&gt;facturante&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-70" y="210" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-9" value="ORDENES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -111,6 +111,14 @@
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-19" value="MATERIALES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="410" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nVbOeIYVw6N5CsfIQIgf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.668;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="uYpV2VOFGErfWM8a4zOd-3" target="jzyrCezaXYslwBgBZA3t-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="160" y="-80" />
+              <mxPoint x="160" y="63" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
