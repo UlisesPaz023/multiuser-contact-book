@@ -35,31 +35,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzyrCezaXYslwBgBZA3t-9" value="&lt;div&gt;id_paciente&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;apellidodocumento&lt;/div&gt;&lt;div&gt;correo&lt;/div&gt;&lt;div&gt;historia_clinica&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="450" y="-280" width="170" height="170" as="geometry" />
+          <mxGeometry x="450" y="-220" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="jzyrCezaXYslwBgBZA3t-9" target="nVbOeIYVw6N5CsfIQIgf-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jzyrCezaXYslwBgBZA3t-10" value="PACIENTES" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="450" y="-280" width="170" height="30" as="geometry" />
+          <mxGeometry x="450" y="-220" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uYpV2VOFGErfWM8a4zOd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="uYpV2VOFGErfWM8a4zOd-1" target="jzyrCezaXYslwBgBZA3t-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="uYpV2VOFGErfWM8a4zOd-1" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_informe (pk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_partologia (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_secretario (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_creacion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;datos (diagnostico, observaciones, notas_adicionales)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="600" y="40" width="170" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="nVbOeIYVw6N5CsfIQIgf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="uYpV2VOFGErfWM8a4zOd-1" target="uYpV2VOFGErfWM8a4zOd-3">
+        <mxCell id="nVbOeIYVw6N5CsfIQIgf-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="uYpV2VOFGErfWM8a4zOd-1" target="uYpV2VOFGErfWM8a4zOd-3">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="685" y="50" />
-              <mxPoint x="685" />
-              <mxPoint x="-45" />
+              <mxPoint x="655" y="-10" />
+              <mxPoint x="-45" y="-10" />
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="uYpV2VOFGErfWM8a4zOd-1" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_informe (pk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_partologia (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_secretario (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_creacion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;datos (diagnostico, observaciones, notas_adicionales)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="570" y="40" width="170" height="170" as="geometry" />
+        </mxCell>
         <mxCell id="uYpV2VOFGErfWM8a4zOd-2" value="INFORMES" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="600" y="40" width="170" height="30" as="geometry" />
+          <mxGeometry x="570" y="40" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="uYpV2VOFGErfWM8a4zOd-3" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_informe_v (pk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_informe (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;id_doctor&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_creacion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;descripcion&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-130" y="-220" width="170" height="170" as="geometry" />
@@ -68,10 +67,10 @@
           <mxGeometry x="-130" y="-220" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-3" value="&lt;div&gt;id_movimiento (pk)&lt;/div&gt;&lt;div&gt;tipo (ingreso, egreso)&lt;/div&gt;&lt;div&gt;descripcion&lt;/div&gt;&lt;div&gt;fecha_movimiento&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="320" y="250" width="170" height="170" as="geometry" />
+          <mxGeometry x="300" y="250" width="170" height="170" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-4" value="CAJA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="250" width="170" height="30" as="geometry" />
+          <mxGeometry x="300" y="250" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nVbOeIYVw6N5CsfIQIgf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nVbOeIYVw6N5CsfIQIgf-8" target="jzyrCezaXYslwBgBZA3t-1">
           <mxGeometry relative="1" as="geometry" />
