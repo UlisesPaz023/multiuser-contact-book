@@ -1,32 +1,59 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.3">
   <diagram name="Page-1" id="f9woN919oMkSvHwLnTK2">
-    <mxGraphModel dx="1428" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2278" dy="1851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jzyrCezaXYslwBgBZA3t-1" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_patologia (pk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_paciente (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_secretario (fk) (solicitante)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_ingreso&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_expiracion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;nro_estudio&lt;/div&gt;&lt;div&gt;material&lt;/div&gt;&lt;div&gt;obra_social&lt;/div&gt;&lt;div&gt;prioridad&lt;/div&gt;&lt;div&gt;informe&lt;/div&gt;&lt;div&gt;informe_validado&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="150" y="80" width="170" height="170" as="geometry" />
+        <mxCell id="jzyrCezaXYslwBgBZA3t-1" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_patologia (pk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_paciente (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_medico (fk) (solicitante)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_ingreso&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_entrega&lt;/span&gt;&lt;/div&gt;&lt;div&gt;nro_estudio&lt;/div&gt;&lt;div&gt;material&lt;/div&gt;&lt;div&gt;obra_social&lt;/div&gt;&lt;div&gt;prioridad&lt;/div&gt;&lt;div&gt;informe&lt;/div&gt;&lt;div&gt;informe_validado&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="130" y="70" width="190" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="jzyrCezaXYslwBgBZA3t-4" value="PATOLOGIAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="50" width="170" height="30" as="geometry" />
+        <mxCell id="jzyrCezaXYslwBgBZA3t-4" value="PATOLOGIAS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="130" y="40" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jzyrCezaXYslwBgBZA3t-5" value="nro_matrícula&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;apellido&lt;/div&gt;&lt;div&gt;correo&lt;/div&gt;&lt;div&gt;documento&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="450" y="80" width="170" height="170" as="geometry" />
+        <mxCell id="jzyrCezaXYslwBgBZA3t-5" value="&lt;div&gt;id_doctor&lt;/div&gt;nro_matrícula&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;apellido&lt;/div&gt;&lt;div&gt;correo&lt;/div&gt;&lt;div&gt;documento&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="140" y="-180" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="jzyrCezaXYslwBgBZA3t-6" value="DOCTORES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="50" width="170" height="30" as="geometry" />
+        <mxCell id="uYpV2VOFGErfWM8a4zOd-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jzyrCezaXYslwBgBZA3t-5" target="uYpV2VOFGErfWM8a4zOd-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jzyrCezaXYslwBgBZA3t-7" value="&lt;div&gt;&lt;div&gt;id_secretarios&lt;/div&gt;&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;apellido&lt;/div&gt;&lt;div&gt;documento&lt;/div&gt;&lt;div&gt;correo&lt;/div&gt;&lt;div&gt;antiguedad&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="150" y="320" width="170" height="170" as="geometry" />
+        <mxCell id="jzyrCezaXYslwBgBZA3t-6" value="DOCTORES" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="-210" width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jzyrCezaXYslwBgBZA3t-8" value="SECRETARIOS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="290" width="170" height="30" as="geometry" />
+        <mxCell id="jzyrCezaXYslwBgBZA3t-7" value="&lt;div&gt;&lt;div&gt;id_secretario&lt;/div&gt;&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;apellido&lt;/div&gt;&lt;div&gt;documento&lt;/div&gt;&lt;div&gt;correo&lt;/div&gt;&lt;div&gt;antiguedad&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="80" width="170" height="170" as="geometry" />
         </mxCell>
-        <mxCell id="jzyrCezaXYslwBgBZA3t-9" value="&lt;div&gt;id_paciente&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;apellidodocumento&lt;/div&gt;&lt;div&gt;correo&lt;/div&gt;&lt;div&gt;historia_clinica&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="450" y="320" width="170" height="170" as="geometry" />
+        <mxCell id="uYpV2VOFGErfWM8a4zOd-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="jzyrCezaXYslwBgBZA3t-7" target="jzyrCezaXYslwBgBZA3t-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jzyrCezaXYslwBgBZA3t-10" value="PACIENTES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="450" y="290" width="170" height="30" as="geometry" />
+        <mxCell id="jzyrCezaXYslwBgBZA3t-8" value="SECRETARIOS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-130" y="50" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYpV2VOFGErfWM8a4zOd-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jzyrCezaXYslwBgBZA3t-9" target="jzyrCezaXYslwBgBZA3t-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jzyrCezaXYslwBgBZA3t-9" value="&lt;div&gt;id_paciente&lt;/div&gt;&lt;div&gt;nombre&lt;/div&gt;&lt;div&gt;apellidodocumento&lt;/div&gt;&lt;div&gt;correo&lt;/div&gt;&lt;div&gt;historia_clinica&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="520" y="-180" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="jzyrCezaXYslwBgBZA3t-10" value="PACIENTES" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="-210" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYpV2VOFGErfWM8a4zOd-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="uYpV2VOFGErfWM8a4zOd-1" target="jzyrCezaXYslwBgBZA3t-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYpV2VOFGErfWM8a4zOd-1" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_informe (pk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_partologia (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_secretario (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_creacion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;datos (diagnostico, observaciones, notas_adicionales)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="390" y="80" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uYpV2VOFGErfWM8a4zOd-2" value="INFORMES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="50" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uYpV2VOFGErfWM8a4zOd-3" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_informe_v (pk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;id_informe (fk)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;id_doctor&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;fecha_creacion&lt;/span&gt;&lt;/div&gt;&lt;div&gt;descripcion&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;flipH=1;flipV=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-220" width="170" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="uYpV2VOFGErfWM8a4zOd-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="uYpV2VOFGErfWM8a4zOd-4" target="uYpV2VOFGErfWM8a4zOd-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uYpV2VOFGErfWM8a4zOd-4" value="INFORMES_VALIDADOS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="-250" width="170" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
